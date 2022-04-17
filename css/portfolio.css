@@ -1,1 +1,128 @@
- 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 364px;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background: #021f26;
+  color: white;
+}
+
+.profile-pic {
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.nav-bar-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar-links > li {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 1em;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header li:hover {
+  transition: all 250ms ease-in;
+  transform: scale(1.2);
+}
+
+.nav-bar-links .current {
+  text-decoration: underline;
+  color: lightblue;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4em 10em;
+  background: #021f26;
+  color: white;
+}
+
+.portfolio-section > h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+  align-self: center;
+}
+
+.portfolio-section > p {
+  font-size: 20px;
+  margin-top: 2em;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.portfolio-section > ul {
+  font-size: 18px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 4em;
+  background-color:  #eff1f1 ;
+}
+
+.projects-section > h1 {
+  font-size: 30px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 2em;
+  background-color: #021f26;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item a {
+  color: black;
+}
+
+.grid-item:hover {
+  transition: all 250ms ease-in;
+  transform: scale(1.05);
+}
+
+
