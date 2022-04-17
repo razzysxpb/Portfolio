@@ -14,7 +14,6 @@ img {
   border-radius: 10px;
 }
 
-
 header {
   display: flex;
   align-items: center;
@@ -84,7 +83,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 13em;
-  background-color:  #eff1f1 ;
+  background-color: #eff1f1;
 }
 
 .contact-form > h1 {
