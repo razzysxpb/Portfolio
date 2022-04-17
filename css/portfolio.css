@@ -87,7 +87,7 @@ header li:hover {
   display: flex;
   flex-direction: column;
   padding: 1em 4em;
-  background-color:  #eff1f1 ;
+  background-color: #eff1f1;
 }
 
 .projects-section > h1 {
@@ -124,5 +124,3 @@ footer {
   transition: all 250ms ease-in;
   transform: scale(1.05);
 }
-
-
