@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
 </head>
 <body>
-  
+    
+    <header>
+            <a href="../index.html"><img src="../img/adrammelech-black-clover-1.png" alt="Adrammelech from Black Clover manga series" class="profile-pic"></a>
+        <nav>
+          <ul class="nav-bar-links">
+              <li><a href="../index.html">Homepage</a></li>
+              <li><a href="../html/blog.html">Blog</a></li>
+              <li><a class="current" href="../html/contact.html">Contact</a></li>
+              <li><a href="../html/portfolio.html">Portfolio</a></li>
+              <li><a href="../html/site-report.html">Site Report</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>Contact information</h1>
+        <p> If you ever want to get in touch to talk about any topic, I can be contacted on the following
+        </p>
+            <ul>
+                <li>Mail: razvan.avram216@gmail.com</li>
+                <li>Discord: razzysxpb#5047</li>
+            </ul>
+        </p>
+    </section>
+    
+
+    <section class="contact-form">
+        <h1>Contact Form</h1>
+        <form action="mailto:email@address?Subject=Contact Form" method="POST">
+          <label for="name-input">Name:</label> <input type="text" id="name-input" />
+          <label for="email-input">Email address:</label> <input type="text" id="email-input" />
+          <label for="message-box"></label> <textarea placeholder="Enter your message here.." cols="30" rows="10"></textarea>
+          <input type="submit" value="Submit" name="submit">
+          </form>
+        
+    </section>
+
+    <footer>
+         Made by Razvan Avram
+    </footer>
 </body>
 </html>
