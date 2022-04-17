@@ -1,12 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Report</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/site-report.css" />
+    <title>Site Report</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"
+        ><img
+          src="../img/adrammelech-black-clover-1.png"
+          alt="Adrammelech from Black Clover manga series"
+          class="profile-pic"
+      /></a>
+      <nav>
+        <ul class="nav-bar-links">
+          <li><a href="../index.html">Homepage</a></li>
+          <li><a href="../html/blog.html">Blog</a></li>
+          <li><a href="../html/contact.html">Contact</a></li>
+          <li><a href="../html/portfolio.html">Portfolio</a></li>
+          <li>
+            <a class="current" href="../html/site-report.html">Site Report</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="report-section">
+      <h1>Site Report</h1>
+    </main>
+
+    <section class="articles-section">
+      <h2>My overall experience and thoughts</h2>
+      <div class="grid">
+        <div class="grid-item">
+          <h3>Report</h3>
+          <br />
+          <p>
+            It's tough. Learning website development is not as easy as it
+            sounds, you need to put in time and effort if you want to get
+            half-decent. Looking at a blank browser window that awaits to be
+            converted into an end product using HTML, CSS and JavaScript can
+            give you some anxiety, or at least in my personal opinion.
+          </p>
+          <br />
+          <p>
+            I have enjoyed my time learning HTML and CSS while in lectures,
+            while also trying to supplement this learning using other free
+            resources too. I ended up learning more Flexbox than grid because
+            that was the focus of the resources I had. And while I did learn
+            Flexbox, honestly I still find it scary to try and style a web page
+            if you don't keep on practicing.
+          </p>
+          <br />
+          <p>
+            If you are wondering why the commits are so close to each other on
+            GitHub, that is because I created local copies of my project files
+            and managed to mix my folder structure, having to recreate the
+            repository in the short span of time and upload my files and commit
+            one by one. They were all uploaded on the same day, but on different
+            intervals (as soon as I finished the respective pages and their
+            styling).
+          </p>
+          <br />
+          <p>Also Linux and Firefox are awesome!</p>
+        </div>
+        <div class="grid-item">
+          <h3>Module Experience</h3>
+          <br />
+          <p>
+            Our teacher is very friendly and interactive, practicing the tried
+            and true method of tell-show-do. That alone honestly makes lectures
+            so much more understandable and fun.
+          </p>
+          <br />
+          <p>
+            The first few weeks of learning Web Development were great, got
+            started with setting up Visual Studio Code on our laptops, learning
+            about the essential HTML tags, doing some CSS styling. I am
+            personally using a MacBook because of the hardware and battery life,
+            but MacOS does get me confused at times. I do need to put some time
+            in to learn it as my folder structure while practicing exercises was
+            a complete mess.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>Technical and Design choices</h3>
+          <br />
+          <p>
+            Because of learning Flexbox better, I had difficulty in trying to
+            make the complete website using grid. I have asked one of my friends
+            of what a nice layout would be for a website, that being a simple
+            header at the top with a navigation bar, 1-2 sections depending on
+            the content and a footer. This was the end result, which I am
+            honestly pretty happy with, despite being so simple. I would have
+            struggled a lot more making the same layout using grid, but I do
+            look forward to learning more.
+          </p>
+          <br />
+          <p>
+            In the <b>header</b> I have decided to put a profile picture on
+            top-left, a navigation bar on top right. I added CSS style for the
+            links so they highlight the page you're currently on. Below the
+            navigation bar is the title of the website, centered and in big
+            font.
+          </p>
+          <br />
+          <p>
+            I have then used the <b>section</b> HTML tag to create different
+            sections for my website. I tried to avoid the div soup. Some
+            elements like <b>main</b> had extremely little use, and
+            <b>aside</b> is not even present, due to me not using grid from
+            start to finish.
+          </p>
+          <br />
+          <p>
+            Some pages like the blog have got an ease-in effect when you hover
+            with the mouse, I just thought it looked fancy. Same behaviour is
+            present on the navigation bar links.
+          </p>
+          <br />
+          <p>
+            <b>Footer</b> is a flex container with only centered text inside. I
+            could have been fancy and put FontAwesome icons for social media but
+            I thought that it would be too troublesome.
+          </p>
+          <br />
+          <p>
+            If you inspect my CSS files you will notice there's many units, such
+            as <b>fr</b>, <b>em</b> and <b>px. </b>Reason is, I found it
+            difficult to estimate how much an em was, and I knew that pixels can
+            pose problematic on smaller screens. fr was told to me by a
+            classmate who's way more better at making websites. fr stands for
+            fraction, and can me used to measure the grids much more precisely.
+          </p>
+          <br />
+          <p>
+            <b>Colour choices</b> were just what I found to be simple and eye
+            pleasing. A simple dark blue (Daintree #021f26) and slightly lighter
+            gray (Zappy Zebra #eff1f1) I found on a colour palette website.
+          </p>
+          <br />
+          <p>
+            <b>Mobile layout</b> is something I completely omitted. Because of
+            using Flexbox I assumed the website would be responsive enough,
+            however that is not the case. When inspecting the page and choosing
+            a mobile layout, the articles and images are squashed. I'm going to
+            be honest, I do not know precisely how to fix this. Flexbox and
+            mobile layout is something I need to work on.
+          </p>
+          <br />
+          <p>
+            There is also a lack of comments throughout my code. Reason is
+            because I was too lazy to put them in and only decided to comment
+            sections where I was testing styling in CSS to see what the property
+            was doing and if I needed it. I do know commenting is a must and is
+            something I plan to do more in the future.
+          </p>
+          <br />
+          <p>
+            <b>Visual Studio Code extensions</b> I have used were
+            <b>Live Server</b> for seeing my changes in real-time and
+            <b>Prettier</b> for better code formatting.
+          </p>
+        </div>
+        <div class="grid-item">
+          <h3>References</h3>
+          <br />
+          <details>
+            <summary>Expand to see links</summary>
+            <ul>
+              <li>
+                developer.mozilla.org. (n.d.). : The Details disclosure element
+                - HTML: HyperText Markup Language | MDN. [online] Available at:
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details</a>
+                [Accessed 17 Apr. 2022]. ‌
+              </li>
+              <li>
+                MDN Web Docs. (n.d.). Basic concepts of flexbox. [online]
+                Available at:
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a>.
+                ‌
+              </li>
+              <li>
+                Flexboxfroggy.com. (2019). Flexbox Froggy. [online] Available
+                at: <a href="https://flexboxfroggy.com/">https://flexboxfroggy.com/</a>. ‌
+              </li>
+              <li>
+                mastery.games. (n.d.). Flexbox Zombies. [online] Available at:
+                <a href="https://mastery.games/flexboxzombies/">https://mastery.games/flexboxzombies/</a>. ‌
+              </li>
+              <li>
+                www.theodinproject.com. (n.d.). Foundations | The Odin Project.
+                [online] Available at:
+                <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">https://www.theodinproject.com/paths/foundations/courses/foundations</a>
+                [Accessed 17 Apr. 2022]. ‌
+              </li>
+              <li>
+                www.youtube.com. (n.d.). HTML & CSS for beginners - YouTube.
+                [online] Available at:
+                <a href="https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-">https://www.youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-</a>
+                [Accessed 17 Apr. 2022]. ‌
+              </li>
+              <li>
+                www.youtube.com. (n.d.). Navigation: highlighting the current
+                page. [online] Available at:
+                <a href="https://www.youtube.com/watch?v=l9niaFJh8Gs">https://www.youtube.com/watch?v=l9niaFJh8Gs</a> [Accessed 17 Apr.
+                2022]. ‌
+              </li>
+              <li>
+                Daintree ( similar ) Color | 021f26 (2019). Daintree ( similar )
+                Color | 021f26 information | Hsl | Rgb | Pantone. [online]
+                Icolorpalette.com. Available at:
+                <a href="https://icolorpalette.com/color?q=021f26">https://icolorpalette.com/color?q=021f26</a> [Accessed 17 Apr.
+                2022]. ‌
+              </li>
+              <li>
+                Zappy Zebra ( similar ) Color | eff1f1 (2019). Zappy Zebra (
+                similar ) Color | eff1f1 information | Hsl | Rgb | Pantone.
+                [online] Icolorpalette.com. Available at:
+                <a href="https://icolorpalette.com/color?q=eff1f1">https://icolorpalette.com/color?q=eff1f1</a> [Accessed 17 Apr.
+                2022]. ‌
+              </li>
+            </ul>
+          </details>
+        </div>
+        <div class="grid-pictures">
+          <h3>Screenshots</h3>
+          <br />
+          <details>
+            <summary>Expand to see webpages screenshots</summary>
+            <img
+              src="../img/grid-website-attempt.png"
+              alt="First grid attempt"
+            />
+            <img
+              src="../img/grid-website-2nd-attempt.png"
+              alt="Second grid attempt"
+            />
+            <img src="../img/sketch-1.png" alt="First website sketch" />
+            <img src="../img/sketch-2.png" alt="Second website sketch" />
+            <img src="../img/sketch-final.png" alt="Final website sketch" />
+          </details>
+          <details>
+            <summary>Expand to see validation screenshots</summary>
+            <img src="../img/validations/blog-html-validation.png" alt="Blog HTML Validation">
+            <img src="../img/validations/blog-css-validation.png" alt="Blog CSS Validation">
+            <img src="../img/validations/contact-html-validation.png" alt="Contact HTML Validation">
+            <img src="../img/validations/contact-css-validation.png" alt="Contact CSS Validation">
+            <img src="../img/validations/index-html-validate.png" alt="Index HTML Validation">
+            <img src="../img/validations/index-css-validation.png" alt="Index CSS Validation">
+            <img src="../img/validations/portfolio-html-validation.png" alt="Portfolio HTML Validation">
+            <img src="../img/validations/portfolio-css-validation.png" alt="Portfolio CSS Validation">
+            <img src="../img/validations/site-report-html-validation.png" alt="Site Report HTML Validation">
+            <img src="../img/validations/site-report-css-validation.png" alt="Site Report CSS Validation">
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer>Made by Razvan Avram</footer>
+  </body>
 </html>
