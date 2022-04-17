@@ -64,6 +64,7 @@ header li:hover {
   padding: 4em 10em;
   background: #021f26;
   color: white;
+  flex-wrap: nowrap;
 }
 
 .blog-section > h1 {
@@ -87,7 +88,7 @@ header li:hover {
   display: flex;
   flex-direction: column;
   padding: 1em 4em;
-  background-color:  #eff1f1 ;
+  background-color: #eff1f1;
 }
 
 .articles-section > h1 {
@@ -115,7 +116,6 @@ footer {
 .grid-item {
   text-align: center;
   /* grid-template-columns: repeat(2, 1fr); */
-
 }
 
 .grid-item a {
@@ -127,4 +127,3 @@ footer {
   transform: scale(1.05);
 }
  */
-
